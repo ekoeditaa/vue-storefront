@@ -1,0 +1,65 @@
+// Colors
+// ======
+// @LandonSchropp's approach of naming color variables.
+// - http://davidwalsh.name/sass-color-variables-dont-suck
+// - http://www.color-blindness.com/color-name-hue/
+
+// General colors palette
+$colors: (
+  transparent: transparent,
+  black: #000,
+  white: #fff,
+  white-smoke: #f2f2f2,
+  burnt-sienna: #eb5757,
+  buccaneer: #755,
+  puerto-rico: #4dba87,
+  silver: #bdbdbd,
+  gray: #828282,
+  matterhorn: #4f4f4f,
+  mine-shaft: #333,
+  cod-gray: #1C1C1C,
+  burnt-umber: #892424,
+  mongoose: #B29B70
+);
+
+// Theme generic colors
+// Key: name of color
+// Value: color value or map with default, hover, focus color values
+$colors-theme: (
+  primary: (
+    default: map-get($colors, matterhorn)
+  ),
+  secondary: (
+    default: map-get($colors,  mine-shaft)
+  ),
+  tertiary: (
+    default: map-get($colors,  mongoose)
+  ),
+  accent: (
+    default: map-get($colors, white)
+  ),
+  success: map-get($colors, puerto-rico),
+  warning: map-get($colors, buccaneer),
+  error: map-get($colors, burnt-sienna)
+);
+
+$colors-border: (
+  primary: map-get($colors, white-smoke),
+  secondary: map-get($colors, white),
+  tertiary: map-get($colors, mongoose)
+);
+
+$colors-background: (
+  primary: (
+    default: map-get($colors, white)
+  ),
+  secondary: (
+    default: map-get($colors, white-smoke)
+  ),
+  tertiary: (
+    default: map-get($colors, cod-gray)
+  ),
+  accent: (
+    default: map-get($colors, burnt-umber)
+  )
+);

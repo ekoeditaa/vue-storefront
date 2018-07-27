@@ -1,0 +1,26 @@
+{
+  "slides": [
+    {
+      "title": "The Macallan Ruby",
+      "subtitle": "New collection",
+      "button_text": "Shop now",
+      "image": "/assets/slide_01.png",
+      "link": "/c/women-20"
+    },
+    {
+      "title": "The Macallan Ruby",
+      "subtitle": "New collection",
+      "button_text": "Shop now",
+      "image": "/assets/slide_01.png",
+      "link": "/c/men-11"
+    },
+    {
+      "title": "The Macallan Ruby",
+      "subtitle": "New collection",
+      "button_text": "Shop now",
+      "image": "/assets/slide_01.png",
+      "link": "/c/men-11"
+    }
+  ],
+  "total": "2"
+}

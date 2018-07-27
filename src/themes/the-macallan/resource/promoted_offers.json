@@ -1,0 +1,16 @@
+{
+  "mainBanners": [
+	  {
+	    "title": "Whisky",
+	    "subtitle": "Collection",
+	    "image": "/assets/banner_01.png",
+	    "link": "/c/women-20"
+    },
+    {
+	    "title": "Gifts",
+	    "subtitle": "Collection",
+	    "image": "/assets/banner_02.png",
+	    "link": "/c/women-20"
+	  }
+  ]
+}
